@@ -14,6 +14,9 @@ function containsSpecialChars(input) {
 function toLowerCase(input){
     return input == input.toLowerCase() && input != input.toUpperCase();
 }
+function toUpperCase(input){
+    return input == input.toUpperCase() && input != input.toLowerCase();
+}
 
 reader.question("What is your password?", function(input){
     if(input.length < 10){
@@ -30,6 +33,8 @@ reader.question("What is your password?", function(input){
                              console.log('Your password does not contain a special character')
                         }else if (toLowerCase(input)){
                             console.log('Your password needs a capital letter')
+                        }else if (toUpperCase(input)){
+                            console.log('Your password needs a lowercase letter')
                         }else console.log('Your password was succesfully saved')
             reader.close()
         })
