@@ -21,7 +21,8 @@ const reader = readline.createInterface({
             else if(!/\d/.test(input)){
                  console.log("Your password does not have a number.")
                  console.log('false')
-                        //  }else if (constainsSpecialChars(input) = false){
+                        //  }
+                        // else if (constainsSpecialChars.test(input) = false){
                         //      console.log('Your password does not contain a special character')
                 }else console.log('Your password was succefully saved')
             })
