@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "Software for project control to track changes made to a file used to track code during development"
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -19,6 +21,7 @@
 
 //CODE HERE
 
+let gitHubDefinition = "Version control using git. Can access the source code through a web application that accesses Git"
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,6 +29,8 @@
 */
 
 //CODE HERE
+
+gitInitDefinition = "gitInit is used to Initialize a file with git"
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -35,6 +40,8 @@
 
 //CODE HERE
 
+gitCloneDefinition = "git clone is used to copy or clone an existing repository"
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +49,8 @@
 */
 
 //CODE HERE
+
+gitStatusDefinition = "git status is used to check on the status of your file to see if changes need to be commited or if your file is up to date"
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +63,9 @@
 
 //CODE HERE
 
+gitAddDefinition = "git add stages any changes in the working directory to be ready for git commit"
+gitAddCode = "git add ."
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +77,8 @@
 
 //CODE HERE
 
+gitCommitDefinition = "git Commit takes a snapshot of all of your changes in the directory that you can use later to access earlier versions of your project"
+gitCommitCode = `git commit -m "initial commit".`
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +87,5 @@
 */
 
 //CODE HERE
+
+gitPushDefinition = "git push uploads all of your succesful commits to your linked repository"
