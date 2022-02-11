@@ -5,12 +5,12 @@
     Reorganize the following steps of the Software Development Lifecycle to be in their correct order.
 */
 
+// Planning
 // Analysis of Requirements
 // Design
 // Implementation
-// Maintain
-// Planning
 // Testing & Integration
+// Maintain
 
 
 //////////////////PROBLEM 2////////////////////
@@ -19,3 +19,12 @@
     The first one is done for you. 
 */
 const planning = "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added." 
+const analysis = "This is the second step of the SDLC, in which you will identify all requirements of your project"
+const design = "Dictate all program languages you use that will best fit the project."
+const Implementation = "Code the software! This process usually takes the longest of the SDLC"
+const testing = ""
+const maintain = ""
+
+
+
+
