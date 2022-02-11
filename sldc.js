@@ -22,8 +22,8 @@ const planning = "This is the first step, in which the end goal of the software 
 const analysis = "This is the second step of the SDLC, in which you will identify all requirements of your project"
 const design = "Dictate all program languages you use that will best fit the project."
 const Implementation = "Code the software! This process usually takes the longest of the SDLC"
-const testing = ""
-const maintain = ""
+const testing = "Test the functionality of the entire software. Have the development team work out any bugs or issues in the software to ensure that it is ready for use. Once all bugs are worked out, deploy the software for intended purposes"
+const maintain = "Update the software in correspondence to the needs of the client and users."
 
 
 
