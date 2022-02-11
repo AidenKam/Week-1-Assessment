@@ -18,6 +18,7 @@ function toUpperCase(input){
     return input == input.toUpperCase() && input != input.toLowerCase();
 }
 
+
 reader.question("What is your password?", function(input){
     if(input.length < 10){
         console.log("Your password is not long enough")
@@ -35,7 +36,17 @@ reader.question("What is your password?", function(input){
                             console.log('Your password needs a capital letter')
                         }else if (toUpperCase(input)){
                             console.log('Your password needs a lowercase letter')
-                        }else console.log('Your password was succesfully saved')
+                        // }else console.log('Your password was saved')
+                    }else console.log(`
+
+                    ********     **     **      ** ******** *******  
+                    **//////     ****   /**     /**/**///// /**////** 
+                   /**          **//**  /**     /**/**      /**    /**
+                   /*********  **  //** //**    ** /******* /**    /**
+                   ////////** ********** //**  **  /**////  /**    /**
+                          /**/**//////**  //****   /**      /**    ** 
+                    ******** /**     /**   //**    /********/*******  
+                   ////////  //      //     //     //////// ////// `)
             reader.close()
         })
             
@@ -59,3 +70,14 @@ reader.question("What is your password?", function(input){
 // if (toLowerCase(me)){
 //     console.log(' the string needs a capital letter')
 // }else console.log('the string contains a capital letter')
+
+//                 console.log(`
+
+//  ********     **     **      ** ******** *******  
+//  **//////     ****   /**     /**/**///// /**////** 
+// /**          **//**  /**     /**/**      /**    /**
+// /*********  **  //** //**    ** /******* /**    /**
+// ////////** ********** //**  **  /**////  /**    /**
+//        /**/**//////**  //****   /**      /**    ** 
+//  ******** /**     /**   //**    /********/*******  
+// ////////  //      //     //     //////// ////// `)
